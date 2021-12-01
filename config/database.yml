@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: ec2pr_production
-  username: ec2pr
-  password: <%= ENV['EC2PR_DATABASE_PASSWORD'] %>
+  username: siddique
+  password: password
