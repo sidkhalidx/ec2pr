@@ -23,6 +23,8 @@ default: &default
 
 development:
   <<: *default
+  username: siddique
+  password: password
   database: ec2pr_development
 
   # The specified database role being used to connect to postgres.
@@ -81,6 +83,7 @@ test:
 #
 production:
   <<: *default
+  host: localhost
   database: ec2pr_production
   username: siddique
   password: password
